@@ -31,5 +31,7 @@ deploy:
 notify:
     spark:
         image: hpreston/drone-spark
-        auth_token: $$SPARK_TOKEN
-        roomId: $$SPARK_ROOM
+        auth_token: NThhMWQ1ZmUtYzVjYi00NTAyLWIwNzQtNGQ4MTlkMzQ1N2E5NjNiM2RiOGMtZDMy
+        roomId: Y2lzY29zcGFyazovL3VzL1JPT00vODVmMzAzNTAtMTQwNC0xMWU3LTkxZWQtNjMzYWE4Y2FkZDNj
+
+
