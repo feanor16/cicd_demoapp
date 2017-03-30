@@ -22,7 +22,7 @@ class FlaskTestCase(unittest.TestCase):
 
     def test_universe_correct_content(self):
         resp = self.app.get('/hello/universe')
-        self.assertEquals(resp.data, '"Hello Universe!"\n'
+        self.assertEquals(resp.data, '"Hello Universe!"\n')
 
     def tearDown(self):
         pass
